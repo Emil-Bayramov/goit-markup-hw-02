@@ -101,6 +101,8 @@ body{
     font-weight: 500px;
     cursor: pointer;
     line-height: 139%;
+    background: #F5F4FA;
+    border-radius: 4px
 }
 .secondary-navigation-list-button:hover{
     color:white;
