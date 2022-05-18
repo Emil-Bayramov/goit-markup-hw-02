@@ -1,0 +1,110 @@
+.active {
+    color: #2196f3;
+}
+.adress {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 1);
+}
+.contact-info-item {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500px;
+}
+.contact-info-item:hover {
+    color: #2196f3;
+}
+.footer-contact-info {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo{
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700px;
+}
+.footer-logo-studio{
+    color: white;
+}
+.footer-logo-web{
+    color: #2196f3;
+}
+.hero-button {
+    color: white;
+    background-color: #2196f3;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 700px;
+}
+.hero-message {
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px;
+}
+.logo {
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700px;
+}
+.logo-studio{
+    color:black;
+}
+.logo-web{
+    color: #2196f3;
+}
+.navigation-link-list:active
+.navigation-link-list:hover,{
+    color:#2196f3;
+}
+.navigation-link-list{
+    font-family: roboto;
+    font-weight: 500px;
+    font-size: 14px;
+}
+.our-works-name{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 700px;
+}
+.our-works-description{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400px;
+}
+.priorities-name {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 700px;
+}
+.priorities-name-description {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400px;
+}
+.secondary-navigation-list-button{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 500px;
+}
+.secondary-navigation-list-button:hover{
+    color:white;
+    background-color: #2196f3;
+}
+.title{
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700px;
+}
+.team-member-name{
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: roboto;
+}
+.team-member-position{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: Roboto;
+}
