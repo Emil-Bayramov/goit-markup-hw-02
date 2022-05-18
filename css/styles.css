@@ -7,10 +7,14 @@
     font-weight: 400px;
     color: rgba(255, 255, 255, 1);
 }
+body{
+    font-family: Roboto;
+}
 .contact-info-item {
     font-size: 14px;
     font-family: Roboto;
     font-weight: 500px;
+    line-height: 100%;
 }
 .contact-info-item:hover {
     color: #2196f3;
@@ -20,11 +24,13 @@
     font-family: Roboto;
     font-weight: 400px;
     color: rgba(255, 255, 255, 0.6);
+    line-height: 146%;
 }
 .footer-logo{
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700px;
+    line-height: 146%;
 }
 .footer-logo-studio{
     color: white;
@@ -43,6 +49,7 @@
     font-size: 44px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900px;
+    line-height: 116%;
 }
 .logo {
     font-size: 26px;
@@ -63,16 +70,19 @@
     font-family: roboto;
     font-weight: 500px;
     font-size: 14px;
+    line-height: 100%;
 }
 .our-works-name{
     font-size: 18px;
     font-family: Roboto;
     font-weight: 700px;
+    line-height: 171%;
 }
 .our-works-description{
     font-size: 16px;
     font-family: Roboto;
     font-weight: 400px;
+    line-height: 160%;
 }
 .priorities-name {
     font-size: 14px;
@@ -83,11 +93,14 @@
     font-size: 14px;
     font-family: Roboto;
     font-weight: 400px;
+    line-height: 146%;
 }
 .secondary-navigation-list-button{
     font-size: 15px;
     font-family: Roboto;
     font-weight: 500px;
+    cursor: pointer;
+    line-height: 139%;
 }
 .secondary-navigation-list-button:hover{
     color:white;
