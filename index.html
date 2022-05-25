@@ -9,22 +9,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />    
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <header>
-        <nav class="navigation">
-            <a href="index.html" class="logo link"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-            <ul class="navigation-link">
-                <li><a class="navigation-link-list active link" href="./index.html">Студия</a></li>
-                <li><a class="navigation-link-list link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="navigation-link-list link" href="">Контакты</a></li>
+        <div class="page-header">
+            <nav class="navigation">
+                <a href="index.html" class="logo link"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+                <ul class="navigation-link">
+                    <li><a class="navigation-link-list active link" href="./index.html">Студия</a></li>
+                    <li><a class="navigation-link-list link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="navigation-link-list link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contact-info">
+                <li><a class="contact-info-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact-info-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contact-info">
-            <li><a class="contact-info-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contact-info-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
         
@@ -52,9 +55,7 @@
         <section>
             <h2 class="title">Наша Команда</h2>
             <ul class="team-members">
-                <li><img src="./images/main/ihor-demianenko.jpg" alt="Игорь Демьяненко Product Designer" height="260">
-                    <h3 class="team-member-name">Игорь Демьяненко</h3><p class="team-member-position">Product Designer</p>
-                </li>
+                <li><img src="./images/main/ihor-demianenko.jpg" alt="Игорь Демьяненко Product Designer" height="260"><h3 class="team-member-name">Игорь Демьяненко</h3><p class="team-member-position">Product Designer</p></li>
                 <li><img src="./images/main/olha-repina.jpg" alt="Ольга Репина Frontend Developer" height="260"><h3 class="team-member-name">Ольга Репина</h3><p class="team-member-position">Frontend Developer</p></li>
                 <li><img src="./images/main/nikolai-tarasov.jpg" alt="Николай Тарасов Marketing" height="260"><h3 class="team-member-name">Николай Тарасов</h3><p class="team-member-position">Marketing</p></li>
                 <li><img src="./images/main/mikhail-ermakov.jpg" alt="Михаил Ермаков UI Designer" height="260"><h3 class="team-member-name">Михаил Ермаков</h3><p class="team-member-position">UI Designer</p></li>
