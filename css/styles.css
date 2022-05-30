@@ -5,41 +5,12 @@
     --main-font: 'Roboto';
     --main-text-color: #212121;
     --secondary-text-color: #757575;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+    
 }
 ul {
     list-style: none;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-}
-*{
- outline: 2px solid tomato;
-}
 /*----- HEADER -----*/
-
 .contact-info-item {
     font-family: var(--main-font);
     font-weight: 500;
@@ -51,12 +22,9 @@ img {
 .contact-info-item:hover {
     color: var(--hover-text-color);
 }
-/* header {
+.header {
     background-color:var(--header-color);
-    width: 1600px;
-    height: 80px;
-    box-sizing: border-box;
-} */
+}
 .link{
     text-decoration: none;
 }
@@ -64,8 +32,6 @@ img {
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
-    height: 145px;
-    width: 31px;
 }
 .logo-studio {
     color: var(--main-text-color);
@@ -76,20 +42,14 @@ img {
 .navigation{
     font-family: var(--main-font);    
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 1.14;
+    line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     cursor: pointer;
-    box-sizing: border-box;
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 .navigation-link-list{
-    color: var(--main-text-color);
-
+    color: var(--main-text-color)
 }
 .navigation-link-list:active,
 .navigation-link-list:hover,
@@ -99,22 +59,10 @@ img {
 .navigation-link-list.active {
     color: var(--hover-text-color)
 }
-.page-header{
-    background-color:var(--header-color);
-    width: 1600px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
 /*----- /HEADER -----*/
 /*----- MAIN -----*/
-
 .hero {
     background-color: var(--hero-background-color);
-    height: 600px;
-    width: 1600px;
 }
 .hero-button {
     font-family: var(--main-font);    
@@ -132,7 +80,6 @@ img {
     width: 200px;
     height: 50px;
     cursor: pointer;
-    margin: 200px;
 }
 .hero-message {
     font-family: var(--main-font);    
@@ -143,11 +90,6 @@ img {
     text-transform: uppercase;
     font-weight: 900;
     color:#ffffff;
-    padding: 200px 452px 280px;
-}
-.our-works{
-    display: flex;
-
 }
 .our-works-name {
     font-family: var(--main-font);    
@@ -172,7 +114,6 @@ img {
     text-transform: uppercase;
     color: var(--main-text-color);
     font-weight: 700;
-
 }
 .priorities-name-description {
     font-family: var(--main-font); 
@@ -206,11 +147,9 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    display: flex;
 }
 .team-members{
     background-color: #F5F4FA;
-    display: flex;
 }
 .team-member-name {
     font-family: var(--main-font);
@@ -220,7 +159,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    
+
 }
 .team-member-position {
     font-family: var(--main-font);  
@@ -230,7 +169,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-/*-- /MAIN */
 /*-- FOOTER */
 .adress {
     font-family: var(--main-font);
@@ -240,7 +178,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
-footer {
+.footer {
     background-color:var(--hero-background-color);
 }
 .footer-contact-info {
